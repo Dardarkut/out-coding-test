@@ -1,0 +1,133 @@
+
+  /* Container Hiring */
+  .container-buttons-hiring{
+    height: 2vw;
+    display: flex;
+    max-width: fit-content;
+    padding: 4px 8px 4px 4px;
+    gap: 16px;
+    background: #000000;
+    border-radius: 14px;
+  }
+
+  .container-buttons-hiring i{
+    color: #FFFFFF
+  }
+  
+  .container-buttons-hiring a{
+    display:flex;
+    align-items: center;
+    margin-top: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #FFFFFF;
+  }
+  
+  .container-buttons-hiring img{
+    left: 35%;
+    right: 35%;
+    top: 25%;
+    bottom: 25%;
+    background: #6B7280;
+  }
+  
+  /* Container Title */
+  .container-title span{
+    color: #6366F1;
+  }
+  
+  /* Container Free Trial Email */
+  .container-enter-email-free-trial input{
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vw 1.5vw;
+    font-size: 1vw;
+    background: #FFFFFF;
+    border-radius: 6px;
+  }
+  
+  .container-enter-email-free-trial button{
+    padding: 1vw 1.5vw;
+    font-size: 1vw;
+  }
+  
+  .container-enter-email-free-trial p{
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #D1D5DB;
+    align-self: stretch;
+  }
+
+  .container-img-bg{
+    float: right; 
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+    vertical-align: middle;
+  }
+
+  #img-bg img{
+    display: flex;
+    margin-top: 3em;
+    margin-left: 8vw;
+    width: 100%;
+    max-width: 80vh;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hiring{
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 12px;
+    font-size: 1vw;
+    width: fit-content;
+    text-align: center;
+    background: #6366F1;
+    color: #FFFFFF;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .button-free-trial-primary{
+    background: #6366F1;
+  }
+  
+  .button-free-trial-second{
+    font-size: 1.2vw;
+    background: #7e7e7e !important;
+  }
+
+  .icon-arrow{
+    margin-left: 1em;
+  }
+
+  #careers-link{
+    display: flex;
+    align-items: center
+  }
+
+  @media(max-width: 660px) {
+    .container-img-bg{ 
+        display: block !important;
+        margin: auto !important;
+        margin-top: 5vw !important;
+        float: none; 
+        width: 80vw;
+        height: auto;
+      }
+    .container-data {
+        position: inherit !important;
+        display: block !important; 
+        margin: auto !important;
+        width: 80vw !important;
+    }
+
+    #img-bg img{
+        margin: auto !important;
+      }
+  }

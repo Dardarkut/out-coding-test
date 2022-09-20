@@ -1,0 +1,12 @@
+body {
+  font-family: 'system-ui';
+  font-style: normal;
+  overflow-x: hidden;  
+  background: #111827;
+  color: #FFFFFF;
+}
+
+.main-container-home{
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}

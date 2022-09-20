@@ -1,0 +1,12 @@
+#login-button-nav{
+    margin: auto;
+}
+  
+.link-hamburger-nav{
+align-items: flex-start !important;
+color: black;
+}
+
+.right{
+float: right !important;
+}
